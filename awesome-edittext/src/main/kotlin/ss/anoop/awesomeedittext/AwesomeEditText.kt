@@ -49,11 +49,6 @@ class AwesomeEditText : AppCompatEditText {
         init(null, 0)
     }
 
-    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
-        super.onSizeChanged(w, h, oldw, oldh)
-        textPaint.color = paint.color
-    }
-
     override fun onTextChanged(
         text: CharSequence?,
         start: Int,
@@ -154,6 +149,10 @@ class AwesomeEditText : AppCompatEditText {
     }
 
     private fun init(attributeSet: AttributeSet?, defStyleRes: Int) {
+        textPaint.apply {
+            color = currentTextColor
+            typeface = paint.typeface
+        }
         setSingleLine()
         textAlignment = View.TEXT_ALIGNMENT_TEXT_START
         if(null != attributeSet){
