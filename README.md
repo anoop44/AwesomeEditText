@@ -7,7 +7,7 @@ AwesomeEdittext is a better Edittext with a cool character zoom out animation wh
 ## Adding to project
 
 ### Gradle
-Add below code to your **root** `build.gradle` file (if you have multiple modules and only one of them require `AwesomeNavigation`, add the `jcenter()` repository only in that module's `build.gradle`).
+Add below code to your **root** `build.gradle` file (if you have multiple modules and only one of them require `AwesomeEditText`, add the `jcenter()` repository only in that module's `build.gradle`).
 ```gradle
 allprojects {
     repositories {
