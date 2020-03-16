@@ -13,7 +13,7 @@ import android.view.animation.DecelerateInterpolator
 import androidx.appcompat.widget.AppCompatEditText
 import ss.anoop.awesomeedittext.internal.DefaultAnimatorListener
 
-class AwesomeEditText : AppCompatEditText {
+open class AwesomeEditText : AppCompatEditText {
     private val textPaint = Paint(
         ANTI_ALIAS_FLAG
     )
