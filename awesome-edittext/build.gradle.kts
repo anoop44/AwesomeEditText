@@ -11,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion(17)
         targetSdkVersion(29)
-        versionName = "0.1.0"
-        versionCode = 10
+        versionName = "1.1.0"
+        versionCode = 110
     }
 
     sourceSets["main"].java.srcDirs(
@@ -29,7 +29,7 @@ configure<PublishExtension> {
     userOrg = "anoop44"
     groupId = "ss.anoop"
     artifactId = "awesome-edittext"
-    publishVersion = "1.0.0"
+    publishVersion = "1.1.0"
     desc = "A no-boaring edittext that have a zoom out animation while typing"
     website = "https://github.com/anoop44/AwesomeEditText"
 }
