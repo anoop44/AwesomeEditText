@@ -1,5 +1,5 @@
 # AwesomeEdittext 
-[ ![Download](https://api.bintray.com/packages/anoop44/maven/awesome-edittext/images/download.svg?version=1.0.0) ](https://bintray.com/anoop44/maven/awesome-edittext/1.0.0/link) <a href="https://android-arsenal.com/api?level=17"><img alt="API" src="https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=flat"/></a> [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-AwesomeEditText-green.svg?style=flat )]( https://android-arsenal.com/details/1/8044 )
+[ ![Download](https://api.bintray.com/packages/anoop44/maven/awesome-edittext/images/download.svg?version=1.1.0) ](https://bintray.com/anoop44/maven/awesome-edittext/1.1.0/link) <a href="https://android-arsenal.com/api?level=17"><img alt="API" src="https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=flat"/></a> [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-AwesomeEditText-green.svg?style=flat )]( https://android-arsenal.com/details/1/8044 )
 
 AwesomeEdittext is a better Edittext with a cool character zoom out animation while typing
 ![gif of AwesomeEdittext](https://raw.githubusercontent.com/anoop44/AwesomeEditText/master/art/awesome-edittext-demo.gif)
